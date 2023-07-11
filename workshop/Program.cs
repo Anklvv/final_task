@@ -1,7 +1,6 @@
 ﻿Console.Write("Введите количество элементов массива: ");
 int m = Convert.ToInt32(Console.ReadLine());
 string[] Array = new string[m];
-
 void array(string[] stringArray)
 {
     for (int i = 0; i < stringArray.Length; i++)
@@ -10,7 +9,6 @@ void array(string[] stringArray)
         stringArray[i] = Console.ReadLine()!;
     }
 }
-
 string[] symbol(string[] stringArray)
 {
     int n = 0;
@@ -39,6 +37,5 @@ void printArray(string[] stringArray)
     }
     Console.WriteLine();
 }
-
 array(Array);
 printArray(symbol(Array));
